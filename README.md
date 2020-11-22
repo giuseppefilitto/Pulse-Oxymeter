@@ -1,7 +1,7 @@
 # Pulse-Oxymeter
 
   Repository for arduino homemade pulse-oxymeter with MAX30102 sensor.
-# Hardware
+## Hardware
 
 The hardware consists in:
 
@@ -13,7 +13,7 @@ The hardware consists in:
 
 ## Libraries
 
-The main library used for this project can be consulted at: [GitHub page](https://github.com/oxullo/Arduino-MAX30100).
+The main libraries used for this project can be consulted at: [GitHub page](https://github.com/oxullo/Arduino-MAX30100/tree/master/src).
 
 The LCD display requires `LiquidCrystal.h`
 
