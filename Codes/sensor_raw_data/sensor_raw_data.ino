@@ -7,17 +7,8 @@
 #define SAMPLING_RATE                       MAX30100_SAMPRATE_100HZ
 // The LEDs currents must be set to a level that avoids clipping and maximises the
 // dynamic range
-#include <Wire.h>
-#include "MAX30100.h"
-
-// Sampling is tightly related to the dynamic range of the ADC.
-// refer to the datasheet for further info
-#define SAMPLING_RATE                       MAX30100_SAMPRATE_100HZ
-
-// The LEDs currents must be set to a level that avoids clipping and maximises the
-// dynamic range
-#define IR_LED_CURRENT                      MAX30100_LED_CURR_50MA
-#define RED_LED_CURRENT                     MAX30100_LED_CURR_27_1MA
+#define IR_LED_CURRENT                      MAX30100_LED_CURR_11MA 
+#define RED_LED_CURRENT                     MAX30100_LED_CURR_11MA
 
 // The pulse width of the LEDs driving determines the resolution of
 // the ADC (which is a Sigma-Delta).
